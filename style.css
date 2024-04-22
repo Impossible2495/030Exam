@@ -8,6 +8,7 @@
 }
 
 body {
+  max-width: 1920px;
   background-color: var(--primary-color);
   font-family: "Roboto Flex", sans-serif;
   color: var(--main-text-color);
