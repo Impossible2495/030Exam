@@ -1,11 +1,27 @@
-body {
-  background-color: #0F0F0F;
-  font-family: "Roboto Flex", sans-serif;
+:root {
+  --primary-color: #0f0f0f;
+  --main-text-color: #ffffff;
+  --info-color: #80837f;
+  --success-color: #3a7f3d;
+  --warning-color: #dbb407;
+  --danger-color: #f44336;
 }
 
-/* .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 1);
-} */
-.header_area {
-  color: #FFFFFF;
+body {
+  background-color: var(--primary-color);
+  font-family: "Roboto Flex", sans-serif;
+  color: var(--main-text-color);
+}
+
+.hero_company_name {
+  color: var(--warning-color);
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.hero_company_target {
+  color: var(--main-text-color);
+  font-size: 1.4rem;
 }
