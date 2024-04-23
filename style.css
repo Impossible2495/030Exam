@@ -60,3 +60,8 @@ p {
 .text_dark {
   color: #0f0f0f;
 }
+
+.footer {
+  background-color: #000000;
+  color: var(--info-color);
+}
