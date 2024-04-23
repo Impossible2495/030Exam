@@ -10,12 +10,13 @@
 body {
   max-width: 1920px;
   background-color: var(--primary-color);
-  font-family: "Roboto Flex", sans-serif;
+  font-family: "Roboto Flex", Arial, sans-serif;
   color: var(--main-text-color);
 }
 
 .hero_company_name {
   color: var(--warning-color);
+  font-family: "Jost", Arial, sans-serif;
   font-size: 6rem;
   font-weight: 700;
   line-height: 1.15;
