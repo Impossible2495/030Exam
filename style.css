@@ -13,17 +13,50 @@ body {
   font-family: "Roboto Flex", Arial, sans-serif;
   color: var(--main-text-color);
 }
+p {
+  margin-bottom: 0;
+}
+.nav_header {
+  background-color: #0f0f0f;
+}
+
+.text-size {
+  font-size: 20px;
+  line-height: 24px;
+}
 
 .hero_company_name {
   color: var(--warning-color);
   font-family: "Jost", Arial, sans-serif;
   font-size: 6rem;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.15;
   text-transform: uppercase;
   vertical-align: middle;
 }
-.hero_company_target {
+.target-text {
   color: var(--main-text-color);
-  font-size: 1.4rem;
+  font-size: 20px;
+}
+
+.section_head {
+  color: var(--warning-color);
+  font-family: "Jost", Arial, sans-serif;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.info_about {
+  font-family: "Jost", Arial, sans-serif;
+  font-size: 40px;
+}
+.text_about {
+  font-size: 14px;
+}
+
+.text_dark {
+  color: #0f0f0f;
 }
