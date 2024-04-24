@@ -63,7 +63,11 @@ p {
 .text_warning {
   color: #dbb407
 }
-text_warning
+
+.margin_head {
+  margin-top: 10rem;
+}
+
 .footer {
   background-color: #000000;
   color: var(--info-color);
