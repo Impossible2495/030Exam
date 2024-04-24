@@ -16,7 +16,7 @@ body {
 p {
   margin-bottom: 0;
 }
-.nav_header {
+.nav_header, .back_color_black {
   background-color: #0f0f0f;
 }
 
@@ -60,8 +60,16 @@ p {
 .text_dark {
   color: #0f0f0f;
 }
-
+.text_warning {
+  color: #dbb407
+}
+text_warning
 .footer {
   background-color: #000000;
   color: var(--info-color);
+}
+
+.hover_link {
+  background-color: #dbb407;
+  color: #0f0f0f;
 }
