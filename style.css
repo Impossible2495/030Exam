@@ -16,7 +16,8 @@ body {
 p {
   margin-bottom: 0;
 }
-.nav_header, .back_color_black {
+.nav_header,
+.back_color_black {
   background-color: #0f0f0f;
 }
 
@@ -34,6 +35,7 @@ p {
   text-transform: uppercase;
   vertical-align: middle;
 }
+
 .target-text {
   color: var(--main-text-color);
   font-size: 20px;
@@ -61,7 +63,7 @@ p {
   color: #0f0f0f;
 }
 .text_warning {
-  color: #dbb407
+  color: #dbb407;
 }
 
 .margin_head {
@@ -76,4 +78,19 @@ p {
 .hover_link {
   background-color: #dbb407;
   color: #0f0f0f;
+}
+
+@media (max-width: 574px) {
+  .hero_company_name {
+    font-size: 3rem;
+  }
+  .section_head {
+    font-size: 2rem;
+  }
+  .info_about {
+    font-size: 20px;
+  }
+  img {
+    max-width: 320px;
+  }
 }
